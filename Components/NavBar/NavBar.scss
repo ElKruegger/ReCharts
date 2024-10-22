@@ -1,0 +1,71 @@
+.vertical-navbar{
+    font-family: "Rubik", sans-serif;
+    justify-content: space-between;
+    background-color: #2b2a2a;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    display: flex;
+    border-radius: 12px;
+    width: 100px;
+    height: 95vh;
+    padding: 0%;
+    left: 10px;
+    top: 25px;
+}
+
+
+.vertical-navbar a {
+    text-decoration: none;
+    color: snow;
+}
+
+
+
+.vertical-navbar ul {
+    list-style-type: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.vertical-navbar ul li {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin: 20px 0;
+}
+
+.divicons{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    font-size: 45px;
+    margin-top: 18vh;
+    height: 100%;
+    width: 100%;
+}
+.divicons label{
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+    font-size: 10px;
+    font-size: 10px;
+    
+}
+.divicons label:hover{
+    color: #94f6f2;
+}
+.divicons a:hover{
+    color: #94f6f2;
+}
+
+.Div-Center-Icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+}
+
+
